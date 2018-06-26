@@ -1,0 +1,49 @@
+/* font weights:
+400 - regular
+700 - bold */
+
+body {
+    background-color: #fff;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    color: #000;
+}
+a:visited {
+    color: #999;
+}
+
+nav {
+    background-color: beige;
+    padding: .2em;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: baseline;
+    height: 800px;
+}
+
+.box {
+    background-color: whitesmoke;
+    border-radius: .2em;
+    height: 33%;
+    width: 33%;
+    padding: 1em;
+    border: 1px solid black;
+}
