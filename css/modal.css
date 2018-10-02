@@ -8,7 +8,6 @@
 }
 
 .arrow {
-    background-color: lightpink;
     flex-grow: 1;
 }
 
@@ -16,4 +15,9 @@
     flex-grow: 3;
     padding: 2px;
     align-content: center;
+}
+
+/* make the image take up the whole space, find a better way for this later...*/
+.imageBox img {
+    width: 100%;
 }

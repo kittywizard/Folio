@@ -8,7 +8,19 @@ console.log("test");
     //best way to handle.. everything is the same except if it's forward or backwards
 
 const leftArrow = document.getElementById('left');
+const rightArrow = document.getElementById('right');
+const arrows = document.getElementsByClassName('arrow');
 
-leftArrow.addEventListener("click", function() {
-    console.log("clicked");
-});
+console.log(arrows);
+
+//can I combine these two into one?
+leftArrow.addEventListener("click", changeSlide);
+rightArrow.addEventListener("click", changeSlide);
+
+
+function changeSlide() {
+    console.log("is this function running");
+    
+    return;
+}
+
