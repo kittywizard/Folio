@@ -1,0 +1,19 @@
+/* modal styling */
+
+#modalBox {
+    background-color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    background-color: lightpink;
+    flex-grow: 1;
+}
+
+.imageBox {
+    flex-grow: 3;
+    padding: 2px;
+    align-content: center;
+}

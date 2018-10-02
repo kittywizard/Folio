@@ -38,9 +38,9 @@ header {
 main {
     background-color: gainsboro;
     display: flex;
-    align-content: space-between;
+    align-content: space-between
     justify-content: center;
-    height: 800px;
+    height: 80vh;
 }
 
 .box {
@@ -48,6 +48,14 @@ main {
     border-radius: .2em;
     height: 25%;
     width: 25%;
-    padding: 1em;
+    padding: 2px;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 2px;
 }
