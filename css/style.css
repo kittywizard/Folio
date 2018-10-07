@@ -1,6 +1,7 @@
 /* font weights:
 400 - regular
 700 - bold */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 body {
     background-color: #fff;

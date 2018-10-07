@@ -1,7 +1,8 @@
 /* modal styling */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 #modalBox {
-    background-color: azure;
+    background-color: black;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -20,4 +21,14 @@
 /* make the image take up the whole space, find a better way for this later...*/
 .imageBox img {
     width: 100%;
+}
+
+#modalBox button {
+    border: none;
+    background-color: #2a2a2a;
+    padding: 2px;
+    color: #ccc;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1;
 }
